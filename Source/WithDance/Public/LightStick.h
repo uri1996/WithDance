@@ -35,6 +35,8 @@ private:
 
 	float CurrentRadius;
 
+	float RunningTime;
+
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UStaticMeshComponent> GlowingCylinder;
 

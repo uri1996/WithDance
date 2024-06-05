@@ -25,6 +25,10 @@ void ALightStick::BeginPlay()
 void ALightStick::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	 
+	RunningTime += DeltaTime;
 
+	float RotationY = 0.25f * FMath::Sin(RunningTime * 10.f);
+	AddActorWorldRotation(FRotator(0.f, 0.f, RotationY));
 }
 
