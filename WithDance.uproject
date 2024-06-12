@@ -30,6 +30,10 @@
 				"Linux",
 				"Android"
 			]
+		},
+		{
+			"Name": "SERIALCOM",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
