@@ -1,14 +1,14 @@
 
 
-"Serial COM" v4.5.3.2 RELEASE NOTES  
+"Serial COM" v5.5.4.2.1 RELEASE NOTES  
 --------------------------------------------------------------
-- Version compatible with Unreal Engine v5.3.2
+- Version compatible with Unreal Engine v5.4.2
 
 
 Known Issues:
 ----------------------------
 
-- "Serial COM" v5.5.3.2 will not be compatible with "UE4Duino" 2.2.5 because the library doesn't share the "UE4DUINO" name anymore, using its own new "SERIALCOM" identifier. Changing to this library will make the old EU4Duino modules in red, indicating that those components are not available anymore.
+- "Serial COM" v5.5.4.2.1 will not be compatible with "UE4Duino" 2.2.5 because the library doesn't share the "UE4DUINO" name anymore, using its own new "SERIALCOM" identifier. Changing to this library will make the old EU4Duino modules in red, indicating that those components are not available anymore.
 Solution: Each component can be replaced with the current version by replacing each one by hand. The replacement equivalent chart is available at:
 https://github.com/videofeedback/Unreal-Engine-Plugin-Communication-Serial-Port  (Modules lists comparison chart)
 
@@ -27,6 +27,6 @@ Github: https://github.ramiroslab.com
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2015 v1 FusionLabz/Gryzly32 (UE4Duino)
 Copyright (c) 2018-2020 v2 Rodrigo Villani Pereira (UE4Duino)
-Copyright (c) 2021-2023 v3/v4  Ramiro Montes De Oca (SerialCOM) fork of (UE4Duino 2.2.5) + Major modifications (See previous releases notes)
+Copyright (c) 2021-2024 v3/v4/v5  Ramiro Montes De Oca (SerialCOM) fork of (UE4Duino 2.2.5) + Major modifications (See previous releases notes)
 
 
