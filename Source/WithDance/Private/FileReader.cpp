@@ -12,7 +12,7 @@ AFileReader::AFileReader()
 void AFileReader::BeginPlay()
 {
 	Super::BeginPlay();
-	
+}
 void AFileReader::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
